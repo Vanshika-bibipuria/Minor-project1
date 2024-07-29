@@ -1,0 +1,47 @@
+.navbar {
+    background-color: rgba(156, 25, 168, 0.7); 
+    color: rgb(255, 230, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+    backdrop-filter: blur(10px); 
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  .navbar-right input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(203, 204, 201, 0.9); 
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    gap: 15px; 
+  }
+  
+  .navbar-buttons a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar-buttons a:hover {
+    background-color: rgba(105, 181, 243, 0.349); 
+    color: #000; 
+  }
+  
+  .navbar-buttons .active {
+    background-color: rgba(255, 255, 255, 0.5); 
+  }
